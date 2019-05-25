@@ -1,6 +1,6 @@
 function tentukanDeretGeometri(arr) {
   // you can only write your code here!
-  var a,r,n,isGeometri;
+  var a,r,n,isGeometri,un;
   a = arr[0];
   r = arr[1]/arr[0];
   isGeometri = [];

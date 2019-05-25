@@ -4,7 +4,7 @@ function palindrome(kata) {
   for(var i = 0;i<kata.length;i++){
     kataTerbalik += kata[kata.length-i-1]; 
   }
-  if(kataTerbalik == kata){
+  if(kataTerbalik === kata){
     return true;
   }else{
     return false;

@@ -1,6 +1,7 @@
 function angkaPalindrome(num) {
   // you can only write your code here!
-  if(num.toString().length === 1){
+  if(num.toString().length == 1){
+    num++;
     return num;
   }else{
     // looping dibalik
